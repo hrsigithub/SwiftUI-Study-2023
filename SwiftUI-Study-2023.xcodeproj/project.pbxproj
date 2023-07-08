@@ -16,6 +16,8 @@
 		695BD1272A58F61A001479C3 /* SwiftUI_Study_2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1262A58F61A001479C3 /* SwiftUI_Study_2023UITestsLaunchTests.swift */; };
 		695BD1342A58FD03001479C3 /* StructView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1332A58FD03001479C3 /* StructView.swift */; };
 		695BD1362A58FD1E001479C3 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1352A58FD1E001479C3 /* ClassView.swift */; };
+		695BD1382A58FDA3001479C3 /* GithubUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1372A58FDA3001479C3 /* GithubUserView.swift */; };
+		695BD13A2A58FDB6001479C3 /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1392A58FDB6001479C3 /* GitHubUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		695BD1262A58F61A001479C3 /* SwiftUI_Study_2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Study_2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		695BD1332A58FD03001479C3 /* StructView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructView.swift; sourceTree = "<group>"; };
 		695BD1352A58FD1E001479C3 /* ClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		695BD1372A58FDA3001479C3 /* GithubUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserView.swift; sourceTree = "<group>"; };
+		695BD1392A58FDB6001479C3 /* GitHubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				695BD10B2A58F618001479C3 /* ContentView.swift */,
 				695BD1332A58FD03001479C3 /* StructView.swift */,
 				695BD10D2A58F61A001479C3 /* Assets.xcassets */,
+				695BD1392A58FDB6001479C3 /* GitHubUser.swift */,
+				695BD1372A58FDA3001479C3 /* GithubUserView.swift */,
 				695BD1352A58FD1E001479C3 /* ClassView.swift */,
 				695BD10F2A58F61A001479C3 /* Preview Content */,
 			);
@@ -266,6 +272,8 @@
 				695BD10C2A58F618001479C3 /* ContentView.swift in Sources */,
 				695BD10A2A58F618001479C3 /* SwiftUI_Study_2023App.swift in Sources */,
 				695BD1342A58FD03001479C3 /* StructView.swift in Sources */,
+				695BD13A2A58FDB6001479C3 /* GitHubUser.swift in Sources */,
+				695BD1382A58FDA3001479C3 /* GithubUserView.swift in Sources */,
 				695BD1362A58FD1E001479C3 /* ClassView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
