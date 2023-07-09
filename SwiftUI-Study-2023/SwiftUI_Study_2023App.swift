@@ -12,7 +12,8 @@ struct SwiftUI_Study_2023App: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            GithubUserView()
+//            GithubUserView()
+            LandmarksView()
             
         }
     }
