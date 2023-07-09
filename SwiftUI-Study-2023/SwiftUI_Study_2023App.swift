@@ -13,7 +13,8 @@ struct SwiftUI_Study_2023App: App {
         WindowGroup {
 //            ContentView()
 //            GithubUserView()
-            LandmarksView()
+            //LandmarksView()
+            TaskMenuView()
             
         }
     }
