@@ -24,48 +24,15 @@ extension HTTPURLResponse {
     static let ok: Int = 200
 }
 
-func getUser(userId: String) async throws -> GitHubUser {
-    //        let endpoint = "https://api.github.com/users/hrsigithub"
-    let endpoint = "https://api.github.com/users/\(userId)"
-    
-    
-    // 文字列から変換
-    guard let url = URL(string: endpoint) else {
-        throw GHError.invalidURL
-    }
-    
-    // -> (Data, URLResponse)を返却
-    let (data, res) = try await URLSession.shared.data(from: url)
-    
-    // resをHTTPURLResponse型にダウンキャスト
-    // swiftでがレスポンスコードの定数がない？
-    
-    guard let res = res as? HTTPURLResponse, res.statusCode == HTTPURLResponse.ok else {
-        throw GHError.invalidResponce
-    }
-    
-    // 以下、ループ処理ではない
-    do {
-        let decoder = JSONDecoder()
-        // スネークケースに変換
-        //　convertFromSnakeCaseは特定の変数にできない。
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
-        
-        return try decoder.decode(GitHubUser.self, from: data)
-    } catch  {
-        print(error)
-        throw GHError.invalidData
-    }
-}
 
-
-func add() -> Int {
-    return 4 + 6
-}
 
 struct GithubUserView: View {
     
     @State private var user:GitHubUser?
+
+
+    
+    
     
     
     var body: some View {

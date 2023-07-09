@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		693CE15E2A59789F00F09F30 /* FetchTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693CE15D2A59789F00F09F30 /* FetchTest.swift */; };
 		695BD10A2A58F618001479C3 /* SwiftUI_Study_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1092A58F618001479C3 /* SwiftUI_Study_2023App.swift */; };
 		695BD10C2A58F618001479C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD10B2A58F618001479C3 /* ContentView.swift */; };
 		695BD10E2A58F61A001479C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 695BD10D2A58F61A001479C3 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		693CE15D2A59789F00F09F30 /* FetchTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTest.swift; sourceTree = "<group>"; };
 		695BD1062A58F618001479C3 /* SwiftUI-Study-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Study-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695BD1092A58F618001479C3 /* SwiftUI_Study_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Study_2023App.swift; sourceTree = "<group>"; };
 		695BD10B2A58F618001479C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		693CE15F2A59795600F09F30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				695BD1372A58FDA3001479C3 /* GithubUserView.swift */,
+				695BD1332A58FD03001479C3 /* StructView.swift */,
+				695BD1352A58FD1E001479C3 /* ClassView.swift */,
+				695BD10B2A58F618001479C3 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		693CE1602A59797C00F09F30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				695BD1392A58FDB6001479C3 /* GitHubUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		695BD0FD2A58F618001479C3 = {
 			isa = PBXGroup;
 			children = (
@@ -102,13 +123,9 @@
 		695BD1082A58F618001479C3 /* SwiftUI-Study-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				69D363C82A5A3BB100A14065 /* Investigation */,
 				695BD1092A58F618001479C3 /* SwiftUI_Study_2023App.swift */,
-				695BD10B2A58F618001479C3 /* ContentView.swift */,
-				695BD1332A58FD03001479C3 /* StructView.swift */,
 				695BD10D2A58F61A001479C3 /* Assets.xcassets */,
-				695BD1392A58FDB6001479C3 /* GitHubUser.swift */,
-				695BD1372A58FDA3001479C3 /* GithubUserView.swift */,
-				695BD1352A58FD1E001479C3 /* ClassView.swift */,
 				695BD10F2A58F61A001479C3 /* Preview Content */,
 			);
 			path = "SwiftUI-Study-2023";
@@ -126,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				695BD11A2A58F61A001479C3 /* SwiftUI_Study_2023Tests.swift */,
+				693CE15D2A59789F00F09F30 /* FetchTest.swift */,
 			);
 			path = "SwiftUI-Study-2023Tests";
 			sourceTree = "<group>";
@@ -137,6 +155,15 @@
 				695BD1262A58F61A001479C3 /* SwiftUI_Study_2023UITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-Study-2023UITests";
+			sourceTree = "<group>";
+		};
+		69D363C82A5A3BB100A14065 /* Investigation */ = {
+			isa = PBXGroup;
+			children = (
+				693CE1602A59797C00F09F30 /* Models */,
+				693CE15F2A59795600F09F30 /* Views */,
+			);
+			path = Investigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693CE15E2A59789F00F09F30 /* FetchTest.swift in Sources */,
 				695BD11B2A58F61A001479C3 /* SwiftUI_Study_2023Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Study-2023/Preview Content\"";
+				DEVELOPMENT_TEAM = D774TE8QQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -461,6 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Study-2023/Preview Content\"";
+				DEVELOPMENT_TEAM = D774TE8QQ8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -488,6 +518,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D774TE8QQ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
@@ -507,6 +538,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D774TE8QQ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
@@ -525,6 +557,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D774TE8QQ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hirorosoft.SwiftUI-Study-2023UITests";
@@ -542,6 +575,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D774TE8QQ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hirorosoft.SwiftUI-Study-2023UITests";
