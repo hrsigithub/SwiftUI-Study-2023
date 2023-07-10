@@ -71,18 +71,6 @@ struct Task3View: View {
     }
 }
 
-struct InputView: View {
-    @Binding var text: String
-
-    var body: some View {
-        TextField("", text: $text)
-//            .keyboardType(.decimalPad)
-            .overlay(
-                RoundedRectangle(cornerRadius: 5)
-                    .stroke(Color.black.opacity(0.5), lineWidth: 1)
-            )
-    }
-}
 struct Task3View_Previews: PreviewProvider {
     static var previews: some View {
         Task3View()

@@ -8,26 +8,23 @@
 import SwiftUI
 
 // let KadaiViews: [View] = [
-//    Kadai001View()
+//    Task1View()
 // ]
 
 struct TaskMenuView: View {
     var body: some View {
         NavigationView {
             List(1..<21) { index in
-                NavigationLink(destination: GetView(index: index)) {
+                NavigationLink(destination: getTaskView(index: index)) {
                     Text("課題\(index)")
                 }
             }
             .navigationTitle("課題チャレンジ")
         }
     }
-}
-
-struct GetView: View {
-    var index: Int = 0
     
-    var body: some View {
+    @ViewBuilder
+    private func getTaskView(index: Int) -> some View {
         switch index {
         case 1:
             Task1View()
@@ -39,26 +36,26 @@ struct GetView: View {
             Task4View()
         case 5:
             Task5View()
-//        case 6:
-//            Kadai006View()
-//        case 7:
-//            Kadai007View()
-//        case 8:
-//            Kadai008View()
-//        case 9:
-//            Kadai009View()
-//        case 10:
-//            Kadai010View()
-//        case 11:
-//            Kadai011View()
-//        case 12:
-//            Kadai012View()
-//        case 13:
-//            Kadai013View()
-//        case 14:
-//            Kadai014View()
-//        case 15:
-//            Kadai015View()
+        case 6:
+            Task6View()
+        case 7:
+            Task7View()
+                    case 8:
+            Task8View()
+            //        case 9:
+            //            Kadai009View()
+            //        case 10:
+            //            Kadai010View()
+            //        case 11:
+            //            Kadai011View()
+            //        case 12:
+            //            Kadai012View()
+            //        case 13:
+            //            Kadai013View()
+            //        case 14:
+            //            Kadai014View()
+            //        case 15:
+            //            Kadai015View()
         default:
             Text("まだ未完成")
         }

@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-struct AlertDetail: Identifiable {
-    let id = UUID()
-    let message: String
-}
 
 struct Task5View: View {
     @State private var textArray = Array(repeating: "", count: 2)
@@ -20,9 +16,9 @@ struct Task5View: View {
     var body: some View {
         VStack {
             HStack {
-                Input5View(text: $textArray[0])
+                InputView(text: $textArray[0])
                 Text("÷")
-                Input5View(text: $textArray[1])
+                InputView(text: $textArray[1])
             }.padding()
 
             HStack {
@@ -71,17 +67,6 @@ struct Task5View: View {
 
 }
 
-struct Input5View: View {
-    @Binding var text: String
-
-    var body: some View {
-        TextField("", text: $text)
-            .overlay(
-                RoundedRectangle(cornerRadius: 5)
-                    .stroke(Color.black.opacity(0.5), lineWidth: 1)
-            )
-    }
-}
 
 struct Task5View_Previews: PreviewProvider {
     static var previews: some View {

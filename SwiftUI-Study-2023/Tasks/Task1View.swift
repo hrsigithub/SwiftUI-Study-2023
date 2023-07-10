@@ -49,11 +49,6 @@ struct Task1View: View {
     }
 }
 
-extension UIApplication {
-    func closeKeyboard() {
-        sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
-    }
-}
 
 struct Task1View_Previews: PreviewProvider {
     static var previews: some View {
