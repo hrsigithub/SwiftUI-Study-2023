@@ -7,21 +7,6 @@
 
 import SwiftUI
 
-// クラスは参照型であり、値の変更が発生しても再描画のトリガーにはなりません。
-
-class MyModel: ObservableObject {
-    @Published var count = 0
-    @Published var count2 = 0
-    
-    // 変数は変化するがViewに反映されない
-    var count3 = 0 {
-        didSet {
-//            変更された後に自動的に呼び出されます。
-            print("count3: \(count3)")
-        }
-    }
-}
-
 struct ClassView: View {
     
     @ObservedObject var modelc = MyModel()
