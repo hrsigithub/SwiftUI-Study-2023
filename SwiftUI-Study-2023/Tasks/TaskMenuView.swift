@@ -40,24 +40,24 @@ struct TaskMenuView: View {
             Task6View()
         case 7:
             Task7View()
-                    case 8:
+        case 8:
             Task8View()
-            //        case 9:
-            //            Kadai009View()
-            //        case 10:
-            //            Kadai010View()
-            //        case 11:
-            //            Kadai011View()
-            //        case 12:
-            //            Kadai012View()
-            //        case 13:
-            //            Kadai013View()
-            //        case 14:
-            //            Kadai014View()
-            //        case 15:
-            //            Kadai015View()
+        case 9:
+            Task9View()
+        case 10:
+            Task10View()
+        case 11:
+            Task11View()
+        case 12:
+            Task12View()
+        case 13:
+            Task13View()
+        case 14:
+            Task14View()
+        case 15:
+            Task15View()
         default:
-            Text("まだ未完成")
+            Text("まだ未完成だわ")
         }
     }
 }
