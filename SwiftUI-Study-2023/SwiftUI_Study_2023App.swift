@@ -14,7 +14,8 @@ struct SwiftUI_Study_2023App: App {
 //            ContentView()
 //            GithubUserView()
             //LandmarksView()
-            TaskMenuView()
+//            TaskMenuView()
+            MainMenuView()
             
         }
     }

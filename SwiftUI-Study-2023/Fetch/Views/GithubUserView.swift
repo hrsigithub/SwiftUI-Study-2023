@@ -29,11 +29,6 @@ extension HTTPURLResponse {
 struct GithubUserView: View {
     
     @State private var user:GitHubUser?
-
-
-    
-    
-    
     
     var body: some View {
         VStack(spacing: 20) {
@@ -43,13 +38,13 @@ struct GithubUserView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .clipShape(Circle())
-
+                
             } placeholder: {
                 Circle()
                     .foregroundColor(.secondary)
             }
             .frame(width: 120, height: 120)
-
+            
             
             Text(user?.login1 ?? "Login User")
                 .bold()

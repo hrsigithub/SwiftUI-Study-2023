@@ -15,9 +15,13 @@ struct MyModel2 {
 
 struct StructView: View {
     
-    // 構造体のみ
     // @State 説明
+    // 構造体のみ
     // privateつける
+    // @Stateで宣言されたプロパティはそれを保持するViewと、
+    // そのプロパティを参照する配下のViewからしかアクセスできません。
+    // この為、private修飾子の使用をAppleでは推奨。
+    //  外からは値を設定できない為、プロパティは初期値が必要
     @State private var count = 0
     @State private var model = MyModel2()
     
