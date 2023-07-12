@@ -412,11 +412,12 @@
 			};
 			buildConfigurationList = 695BD1012A58F618001479C3 /* Build configuration list for PBXProject "SwiftUI-Study-2023" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ja;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 695BD0FD2A58F618001479C3;
 			productRefGroup = 695BD1072A58F618001479C3 /* Products */;
