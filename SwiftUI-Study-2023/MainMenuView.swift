@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark"]
+let Menus = ["課題チャレンジ", "Landmark", "TTinder"]
 
 struct MainMenuView: View {
     var body: some View {
@@ -28,6 +28,8 @@ struct MainMenuView: View {
             TaskMenuView()
         case 1:
             LandmarkList()
+        case 2:
+            HomeView()
         default:
             Text("まだ未完成だわ")
         }
