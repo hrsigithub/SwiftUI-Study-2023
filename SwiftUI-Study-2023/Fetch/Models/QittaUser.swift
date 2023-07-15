@@ -9,13 +9,12 @@ import Foundation
 
 
 
-struct User: Codable, Hashable  {
+struct QittaUser: Codable, Hashable  {
     let id: String
     let permanent_id: Int
     let profile_image_url: String
 
     var name: String
-    var password: String
     
     // Memberwise Initializerがあるため不要だが、インスタンス時に初期化が必須
 
@@ -25,7 +24,6 @@ struct User: Codable, Hashable  {
         self.profile_image_url = ""
         self.name = ""
         
-        self.password = ""
         
     }
 }

@@ -17,13 +17,13 @@ import Foundation
 struct Article: Codable, Hashable {
     let id: String
     var title: String
-    let user: User
+    let user: QittaUser
 
     // モデルにイニシャライザがいいのかも
     init() {
         self.id = ""
         self.title = ""
-        self.user = User()
+        self.user = QittaUser()
     }
 }
 

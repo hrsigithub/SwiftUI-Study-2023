@@ -9,24 +9,6 @@ import Foundation
 import Combine
 
 
-//class ArticleViewModel : ObservableObject {
-//
-//    @Published var qitaDatas: [Article] = []
-//
-//    func get() {
-//
-//        let url = "https://qiita.com/api/v2/items"
-//
-//        AsAf.shared.fetch2(url: url, type: Article.self) { data in
-//            self.qitaDatas = data
-//
-//            print("vm_:\(self.qitaDatas)")
-//        }
-//    }
-//}
-
-
-
 class APIService {
     func fetchData(from url: URL) -> AnyPublisher<Data, Error> {
         URLSession.shared.dataTaskPublisher(for: url)
@@ -61,5 +43,37 @@ class ArticleViewModel: ObservableObject {
                 print("vm_:\(data)")
             }
             .store(in: &cancellables)
+    }
+    
+    func getArticles() async throws -> [Article] {
+        
+        do {
+            let url = try getURL(endpoint: "https://qiita.com/api/v2/items")
+            
+            // -> (Data, URLResponse)を返却
+            let (data, res) = try await URLSession.shared.data(from: url)
+
+            guard let res = res as? HTTPURLResponse, res.statusCode == HTTPURLResponse.ok else {
+                throw GHError.invalidResponce
+            }
+            print(String(data: data, encoding: .utf8)!)
+            // 以下、ループ処理ではない
+            do {
+                let decoder = JSONDecoder()
+                // スネークケースに変換
+                //　convertFromSnakeCaseは特定の変数にできない。
+//                decoder.keyDecodingStrategy = .convertFromSnakeCase
+                
+                return try decoder.decode([Article].self, from: data)
+            } catch  {
+                print(error)
+                throw GHError.invalidData
+            }
+
+            
+        } catch {
+            print(error)
+            throw GHError.invalidData
+        }
     }
 }

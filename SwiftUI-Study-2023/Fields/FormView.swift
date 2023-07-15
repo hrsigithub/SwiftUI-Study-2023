@@ -8,16 +8,16 @@
 import SwiftUI
 
 
-// struct User {
-//    var name: String
-//    var password: String
-//
-//    // Memberwise Initializerがあるため不要だが、インスタンス時に初期化が必須
-//    init() {
-//        name = ""
-//        password = ""
-//    }
-//}
+ struct User {
+    var name: String
+    var password: String
+
+    // Memberwise Initializerがあるため不要だが、インスタンス時に初期化が必須
+    init() {
+        name = ""
+        password = ""
+    }
+}
 
 
 struct FormView: View {

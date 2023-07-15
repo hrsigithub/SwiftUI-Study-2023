@@ -38,16 +38,9 @@ struct GitHubUser:Decodable {
 }
 
 
-// Unit test
-func getUser2() ->GitHubUser? {
-        return nil
-}
-
-
 func getUser(userId: String) async throws -> GitHubUser {
     //        let endpoint = "https://api.github.com/users/hrsigithub"
     let endpoint = "https://api.github.com/users/\(userId)"
-    
     
     // 文字列から変換
     guard let url = URL(string: endpoint) else {

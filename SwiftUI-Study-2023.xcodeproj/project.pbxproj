@@ -42,7 +42,7 @@
 		69C088B72A60DDC300C526BD /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B62A60DDC300C526BD /* FrameView.swift */; };
 		69C088B92A60DDCD00C526BD /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B82A60DDCD00C526BD /* LazyVGridView.swift */; };
 		69C088BB2A621FED00C526BD /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088BA2A621FED00C526BD /* Article.swift */; };
-		69C088BD2A6220EA00C526BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088BC2A6220EA00C526BD /* User.swift */; };
+		69C088BD2A6220EA00C526BD /* QittaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088BC2A6220EA00C526BD /* QittaUser.swift */; };
 		69C088BF2A62230000C526BD /* Satei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088BE2A62230000C526BD /* Satei.swift */; };
 		69C088C22A62234800C526BD /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088C12A62234800C526BD /* ArticleViewModel.swift */; };
 		69C088C42A62252E00C526BD /* SateiiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088C32A62252E00C526BD /* SateiiViewModel.swift */; };
@@ -50,6 +50,10 @@
 		69C088CA2A622E7800C526BD /* ObservedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088C92A622E7800C526BD /* ObservedObjectView.swift */; };
 		69C088CC2A62398000C526BD /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088CB2A62398000C526BD /* StateObjectView.swift */; };
 		69C088CE2A623E5C00C526BD /* ObservedOrStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088CD2A623E5C00C526BD /* ObservedOrStateView.swift */; };
+		69C088D12A62A93400C526BD /* QiittaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088CF2A62A93400C526BD /* QiittaView.swift */; };
+		69C088D22A62A93400C526BD /* SateiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088D02A62A93400C526BD /* SateiView.swift */; };
+		69C088D52A62AB5B00C526BD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088D42A62AB5B00C526BD /* Util.swift */; };
+		69C088D72A62AC0700C526BD /* GitHubUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088D62A62AC0700C526BD /* GitHubUserViewModel.swift */; };
 		69D363CC2A5A3C7900A14065 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D363CB2A5A3C7900A14065 /* Landmark.swift */; };
 		69D363CE2A5A3C9100A14065 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D363CD2A5A3C9100A14065 /* LandmarkRow.swift */; };
 		69D363D12A5A3CD100A14065 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 69D363D02A5A3CD100A14065 /* landmarkData.json */; };
@@ -131,7 +135,7 @@
 		69C088B62A60DDC300C526BD /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		69C088B82A60DDCD00C526BD /* LazyVGridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		69C088BA2A621FED00C526BD /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		69C088BC2A6220EA00C526BD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		69C088BC2A6220EA00C526BD /* QittaUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QittaUser.swift; sourceTree = "<group>"; };
 		69C088BE2A62230000C526BD /* Satei.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Satei.swift; sourceTree = "<group>"; };
 		69C088C12A62234800C526BD /* ArticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		69C088C32A62252E00C526BD /* SateiiViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SateiiViewModel.swift; sourceTree = "<group>"; };
@@ -139,6 +143,10 @@
 		69C088C92A622E7800C526BD /* ObservedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectView.swift; sourceTree = "<group>"; };
 		69C088CB2A62398000C526BD /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
 		69C088CD2A623E5C00C526BD /* ObservedOrStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedOrStateView.swift; sourceTree = "<group>"; };
+		69C088CF2A62A93400C526BD /* QiittaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiittaView.swift; sourceTree = "<group>"; };
+		69C088D02A62A93400C526BD /* SateiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SateiView.swift; sourceTree = "<group>"; };
+		69C088D42A62AB5B00C526BD /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		69C088D62A62AC0700C526BD /* GitHubUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserViewModel.swift; sourceTree = "<group>"; };
 		69D363CB2A5A3C7900A14065 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		69D363CD2A5A3C9100A14065 /* LandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		69D363D02A5A3CD100A14065 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -213,7 +221,6 @@
 				695BD1332A58FD03001479C3 /* StructView.swift */,
 				6942FB382A5B9BBE004A3B5B /* HierarchicalStructure.swift */,
 				69C088C92A622E7800C526BD /* ObservedObjectView.swift */,
-				69C088CB2A62398000C526BD /* StateObjectView.swift */,
 				69C088CD2A623E5C00C526BD /* ObservedOrStateView.swift */,
 			);
 			path = Views;
@@ -231,7 +238,7 @@
 		694B62FA2A5E33EF00890C2F /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
-				694B62FE2A5E347000890C2F /* Util */,
+				694B62FE2A5E347000890C2F /* Utils */,
 				694B62FB2A5E340E00890C2F /* Views */,
 			);
 			path = Tinder;
@@ -247,13 +254,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		694B62FE2A5E347000890C2F /* Util */ = {
+		694B62FE2A5E347000890C2F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				69FB48532A5E368800F6448F /* Modifiers */,
 				694B62FF2A5E348E00890C2F /* Extensions */,
 			);
-			path = Util;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		694B62FF2A5E348E00890C2F /* Extensions */ = {
@@ -333,6 +340,7 @@
 		69A2B5492A5D5FBA00AC658C /* Fetch */ = {
 			isa = PBXGroup;
 			children = (
+				69C088D32A62AB2600C526BD /* Utils */,
 				69C088C02A62232B00C526BD /* ViewModels */,
 				69A2B54B2A5D5FD100AC658C /* Models */,
 				69A2B54A2A5D5FC200AC658C /* Views */,
@@ -343,6 +351,9 @@
 		69A2B54A2A5D5FC200AC658C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				69C088CF2A62A93400C526BD /* QiittaView.swift */,
+				69C088D02A62A93400C526BD /* SateiView.swift */,
+				69C088CB2A62398000C526BD /* StateObjectView.swift */,
 				695BD1372A58FDA3001479C3 /* GithubUserView.swift */,
 			);
 			path = Views;
@@ -353,7 +364,7 @@
 			children = (
 				69C088BA2A621FED00C526BD /* Article.swift */,
 				695BD1392A58FDB6001479C3 /* GitHubUser.swift */,
-				69C088BC2A6220EA00C526BD /* User.swift */,
+				69C088BC2A6220EA00C526BD /* QittaUser.swift */,
 				69C088BE2A62230000C526BD /* Satei.swift */,
 			);
 			path = Models;
@@ -373,8 +384,17 @@
 			children = (
 				69C088C32A62252E00C526BD /* SateiiViewModel.swift */,
 				69C088C12A62234800C526BD /* ArticleViewModel.swift */,
+				69C088D62A62AC0700C526BD /* GitHubUserViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69C088D32A62AB2600C526BD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				69C088D42A62AB5B00C526BD /* Util.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		69D363C92A5A3C2300A14065 /* Landmarks */ = {
@@ -596,9 +616,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C088BD2A6220EA00C526BD /* User.swift in Sources */,
+				69C088BD2A6220EA00C526BD /* QittaUser.swift in Sources */,
 				6942FB322A5B95EE004A3B5B /* Task8View.swift in Sources */,
 				69C088C62A62278400C526BD /* StructModel.swift in Sources */,
+				69C088D72A62AC0700C526BD /* GitHubUserViewModel.swift in Sources */,
 				694B63012A5E34AE00890C2F /* ImageExtension.swift in Sources */,
 				69D363CC2A5A3C7900A14065 /* Landmark.swift in Sources */,
 				695BD10C2A58F618001479C3 /* ContentView.swift in Sources */,
@@ -615,6 +636,7 @@
 				69C088B42A60DD2E00C526BD /* TableView.swift in Sources */,
 				69C088BB2A621FED00C526BD /* Article.swift in Sources */,
 				694B62FD2A5E344600890C2F /* TopView.swift in Sources */,
+				69C088D22A62A93400C526BD /* SateiView.swift in Sources */,
 				69C088B92A60DDCD00C526BD /* LazyVGridView.swift in Sources */,
 				69FB48522A5E367200F6448F /* ViewExtension.swift in Sources */,
 				69FB48572A5E3A8A00F6448F /* HomeView.swift in Sources */,
@@ -639,6 +661,7 @@
 				69FB48632A5F9B3200F6448F /* ListView.swift in Sources */,
 				69FB48552A5E36A000F6448F /* BottomButtonModifier.swift in Sources */,
 				69FB485C2A5F7C1600F6448F /* NumberView.swift in Sources */,
+				69C088D12A62A93400C526BD /* QiittaView.swift in Sources */,
 				69D363CE2A5A3C9100A14065 /* LandmarkRow.swift in Sources */,
 				69FC05462A5ABCBF00A8AC2D /* Task1View.swift in Sources */,
 				69A2B53C2A5CD55600AC658C /* Task12View.swift in Sources */,
@@ -653,6 +676,7 @@
 				6942FB2E2A5B94CB004A3B5B /* Task7View.swift in Sources */,
 				69FB485E2A5F831A00F6448F /* FormView.swift in Sources */,
 				69C088C22A62234800C526BD /* ArticleViewModel.swift in Sources */,
+				69C088D52A62AB5B00C526BD /* Util.swift in Sources */,
 				69A2B5422A5CDB7A00AC658C /* Task14View.swift in Sources */,
 				6942FB3B2A5BF236004A3B5B /* Task9View.swift in Sources */,
 			);
