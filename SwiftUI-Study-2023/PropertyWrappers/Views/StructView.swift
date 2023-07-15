@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-// 構造体にObservableObjectプロトコルはコンパイルエラー
-
-struct MyModel2 {
-    var count = 0
-}
 
 struct StructView: View {
     
@@ -23,7 +18,7 @@ struct StructView: View {
     // この為、private修飾子の使用をAppleでは推奨。
     //  外からは値を設定できない為、プロパティは初期値が必要
     @State private var count = 0
-    @State private var model = MyModel2()
+    @State private var model = StructModel()
     
     var body: some View {
         StructChildView(count: $count, model: $model)
@@ -41,7 +36,7 @@ struct StructChildView: View {
     // 通常、親ビューから子ビューにデータを渡すために使用されます。
     
     @Binding var count: Int
-    @Binding var model: MyModel2
+    @Binding var model: StructModel
     
     var body: some View {
         VStack {

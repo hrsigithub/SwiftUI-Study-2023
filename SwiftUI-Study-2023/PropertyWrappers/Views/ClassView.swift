@@ -10,7 +10,7 @@ import SwiftUI
 struct ClassView: View {
     
     @ObservedObject var modelc = MyModel()
-    @State private var model = MyModel2()
+    @State private var model = StructModel()
     
     var body: some View {
         VStack{
@@ -27,9 +27,11 @@ struct ClassView: View {
     }
 }
 
+
 struct ClassChildView: View {
     
     // クラスを受けろ場合
+    // それぞれのビューは別々のインスタンスを保持している
     @ObservedObject var modelc: MyModel
     
     var body: some View {
@@ -37,6 +39,7 @@ struct ClassChildView: View {
         Text("class Count 2: \(modelc.count2)")
         Text("class Count 3: \(modelc.count3)")
 
+        // それぞれのビューはviewModelとChildViewのカウントは独立して管理されます。
         Button("class Increment 1 and 2") {
             modelc.count += 1
             modelc.count2 += 2
