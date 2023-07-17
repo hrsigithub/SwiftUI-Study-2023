@@ -61,7 +61,8 @@ struct GithubUserView: View {
         // 非同期のタスクを実行するために使用
         .task {
             do {
-                user = try await getUser(userId: "hrsigithub")
+                user = try await fetch(url: "https://api.github.com/users/hrsigithub", isKeyDecodingStrategy: true)
+                
             } catch GHError.invalidURL {
                 print("invalidURL")
             } catch GHError.invalidResponce {

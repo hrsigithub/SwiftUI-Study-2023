@@ -60,7 +60,7 @@ struct QiittaView: View {
         }
         .task {
             do {
-                articles = try await vm.getArticles()
+                articles = try await fetch(url: "https://qiita.com/api/v2/items")
             } catch GHError.invalidURL {
                 print("invalidURL")
             } catch GHError.invalidResponce {

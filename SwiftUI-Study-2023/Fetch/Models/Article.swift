@@ -26,6 +26,3 @@ struct Article: Codable, Hashable {
         self.user = QittaUser()
     }
 }
-
-
-

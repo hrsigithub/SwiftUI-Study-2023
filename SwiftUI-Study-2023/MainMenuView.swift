@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark", "TTinder", "Qiitta"]
+let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta"]
 
 struct MainMenuView: View {
     var body: some View {
