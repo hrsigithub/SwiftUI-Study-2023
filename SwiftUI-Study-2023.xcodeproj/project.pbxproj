@@ -43,6 +43,7 @@
 		69A2B5462A5CDC4700AC658C /* GeneralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B5452A5CDC4700AC658C /* GeneralModel.swift */; };
 		69A2B5482A5CEBBE00AC658C /* Task15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B5472A5CEBBE00AC658C /* Task15View.swift */; };
 		69A2B54D2A5D602800AC658C /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B54C2A5D602800AC658C /* MainMenuView.swift */; };
+		69ABF0632B7DD31F008B8DC5 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABF0622B7DD31F008B8DC5 /* FaceView.swift */; };
 		69C088B22A60DD2800C526BD /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B12A60DD2800C526BD /* TextFieldView.swift */; };
 		69C088B42A60DD2E00C526BD /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B32A60DD2E00C526BD /* TableView.swift */; };
 		69C088B72A60DDC300C526BD /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B62A60DDC300C526BD /* FrameView.swift */; };
@@ -72,6 +73,9 @@
 		69DE739A2A66D3D5003865D3 /* AsAf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE73992A66D3D5003865D3 /* AsAf.swift */; };
 		69DE739D2A67803C003865D3 /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE739C2A67803C003865D3 /* RestaurantView.swift */; };
 		69DE739F2A678055003865D3 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE739E2A678055003865D3 /* TodoListView.swift */; };
+		69DE73A32A67810E003865D3 /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE73A22A67810E003865D3 /* WeSplit.swift */; };
+		69DE73A52A67811F003865D3 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE73A42A67811E003865D3 /* GuessTheFlag.swift */; };
+		69DE73A72A678131003865D3 /* GuessTheFlagComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE73A62A678131003865D3 /* GuessTheFlagComplete.swift */; };
 		69FB48502A5E364700F6448F /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB484F2A5E364700F6448F /* BottomView.swift */; };
 		69FB48522A5E367200F6448F /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB48512A5E367200F6448F /* ViewExtension.swift */; };
 		69FB48552A5E36A000F6448F /* BottomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB48542A5E36A000F6448F /* BottomButtonModifier.swift */; };
@@ -145,6 +149,7 @@
 		69A2B5452A5CDC4700AC658C /* GeneralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralModel.swift; sourceTree = "<group>"; };
 		69A2B5472A5CEBBE00AC658C /* Task15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task15View.swift; sourceTree = "<group>"; };
 		69A2B54C2A5D602800AC658C /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		69ABF0622B7DD31F008B8DC5 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 		69C088B12A60DD2800C526BD /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		69C088B32A60DD2E00C526BD /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		69C088B62A60DDC300C526BD /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
@@ -174,6 +179,9 @@
 		69DE73992A66D3D5003865D3 /* AsAf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsAf.swift; sourceTree = "<group>"; };
 		69DE739C2A67803C003865D3 /* RestaurantView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
 		69DE739E2A678055003865D3 /* TodoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		69DE73A22A67810E003865D3 /* WeSplit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
+		69DE73A42A67811E003865D3 /* GuessTheFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
+		69DE73A62A678131003865D3 /* GuessTheFlagComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessTheFlagComplete.swift; sourceTree = "<group>"; };
 		69FB484F2A5E364700F6448F /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		69FB48512A5E367200F6448F /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		69FB48542A5E36A000F6448F /* BottomButtonModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomButtonModifier.swift; sourceTree = "<group>"; };
@@ -314,6 +322,7 @@
 		695BD1082A58F618001479C3 /* SwiftUI-Study-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				69DE73A02A6780D6003865D3 /* 1000Days */,
 				69DE73952A66D342003865D3 /* Design */,
 				6942FB332A5B9876004A3B5B /* PropertyWrappers */,
 				69A2B5492A5D5FBA00AC658C /* Fetch */,
@@ -440,6 +449,7 @@
 			children = (
 				69C088B62A60DDC300C526BD /* FrameView.swift */,
 				69C088B82A60DDCD00C526BD /* LazyVGridView.swift */,
+				69ABF0622B7DD31F008B8DC5 /* FaceView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -524,6 +534,24 @@
 			children = (
 				69DE739C2A67803C003865D3 /* RestaurantView.swift */,
 				69DE739E2A678055003865D3 /* TodoListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69DE73A02A6780D6003865D3 /* 1000Days */ = {
+			isa = PBXGroup;
+			children = (
+				69DE73A12A6780ED003865D3 /* Views */,
+			);
+			path = 1000Days;
+			sourceTree = "<group>";
+		};
+		69DE73A12A6780ED003865D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69DE73A22A67810E003865D3 /* WeSplit.swift */,
+				69DE73A42A67811E003865D3 /* GuessTheFlag.swift */,
+				69DE73A62A678131003865D3 /* GuessTheFlagComplete.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -717,6 +745,7 @@
 				6942FB3D2A5BF2A4004A3B5B /* Task10View.swift in Sources */,
 				6942FB2C2A5B8BDA004A3B5B /* GeneraView.swift in Sources */,
 				69FC05402A5ABAD700A8AC2D /* Task4View.swift in Sources */,
+				69DE73A72A678131003865D3 /* GuessTheFlagComplete.swift in Sources */,
 				6942FB302A5B9579004A3B5B /* Utils.swift in Sources */,
 				6979F22F2A65323E00710EA8 /* EventRowView.swift in Sources */,
 				6979F22B2A63AF5400710EA8 /* TopListViewModel.swift in Sources */,
@@ -728,6 +757,7 @@
 				69D363D82A5A3EC500A14065 /* MapView.swift in Sources */,
 				6979F2202A63ACE300710EA8 /* StudyGroup.swift in Sources */,
 				69C088B42A60DD2E00C526BD /* TableView.swift in Sources */,
+				69DE73A52A67811F003865D3 /* GuessTheFlag.swift in Sources */,
 				69C088BB2A621FED00C526BD /* Article.swift in Sources */,
 				69DE739D2A67803C003865D3 /* RestaurantView.swift in Sources */,
 				694B62FD2A5E344600890C2F /* TopView.swift in Sources */,
@@ -752,9 +782,11 @@
 				695BD10A2A58F618001479C3 /* SwiftUI_Study_2023App.swift in Sources */,
 				695BD1342A58FD03001479C3 /* StructView.swift in Sources */,
 				695BD13A2A58FDB6001479C3 /* GitHubUser.swift in Sources */,
+				69DE73A32A67810E003865D3 /* WeSplit.swift in Sources */,
 				695BD1382A58FDA3001479C3 /* GithubUserView.swift in Sources */,
 				69FC053E2A5ABA5600A8AC2D /* Task3View.swift in Sources */,
 				69FB48632A5F9B3200F6448F /* ListView.swift in Sources */,
+				69ABF0632B7DD31F008B8DC5 /* FaceView.swift in Sources */,
 				69FB48552A5E36A000F6448F /* BottomButtonModifier.swift in Sources */,
 				69FB485C2A5F7C1600F6448F /* NumberView.swift in Sources */,
 				69DE739F2A678055003865D3 /* TodoListView.swift in Sources */,
