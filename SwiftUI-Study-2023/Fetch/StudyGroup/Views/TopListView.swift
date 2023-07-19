@@ -9,8 +9,8 @@ import SwiftUI
 
 struct TopListView: View {
     
-    @ObservedObject var vm = TopListViewModel()
-//    @State private var studyGroup:StudyGroup = StudyGroup()
+//    @ObservedObject var vm = TopListViewModel()
+//    @State private var studyGroup:StudyGroup = StudyGroup(events: mockEventsData)
     @State private var events:[Event] = []
                                
 
@@ -18,14 +18,18 @@ struct TopListView: View {
         NavigationView {
             List(events) { event in
                 NavigationLink(destination: Text("詳細")) {
-//                    EventRowView(eventData: event)
+                    EventRowView(eventData: event)
                 }
             }
             .navigationBarTitle(Text("YUMEMI.swift一覧"))
         }
         .task {
             do {
-                events = try await vm.fetch().events
+                let studyGroup:StudyGroup = try await fetch(url: "https://connpass.com/api/v1/event/?keyword=YUMEMI.swift")
+                events = studyGroup.events
+                
+                
+                
             } catch GHError.invalidURL {
                 print("invalidURL")
             } catch GHError.invalidResponce {

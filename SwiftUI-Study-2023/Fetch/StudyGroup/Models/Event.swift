@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 struct Event: Decodable, Identifiable {
     var id: Int
     var title: String
