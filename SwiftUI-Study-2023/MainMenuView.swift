@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face"]
+let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map"]
 
 struct MainMenuView: View {
     var body: some View {
@@ -34,6 +34,11 @@ struct MainMenuView: View {
             QiittaView()
         case 4:
             FaceView()
+        case 5:
+            Map2View()
+
+            
+            
 
             
             

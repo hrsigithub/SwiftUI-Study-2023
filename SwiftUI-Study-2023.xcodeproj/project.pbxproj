@@ -44,6 +44,7 @@
 		69A2B5482A5CEBBE00AC658C /* Task15View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B5472A5CEBBE00AC658C /* Task15View.swift */; };
 		69A2B54D2A5D602800AC658C /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B54C2A5D602800AC658C /* MainMenuView.swift */; };
 		69ABF0632B7DD31F008B8DC5 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABF0622B7DD31F008B8DC5 /* FaceView.swift */; };
+		69ABF0652B7DE96A008B8DC5 /* Map2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69ABF0642B7DE96A008B8DC5 /* Map2View.swift */; };
 		69C088B22A60DD2800C526BD /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B12A60DD2800C526BD /* TextFieldView.swift */; };
 		69C088B42A60DD2E00C526BD /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B32A60DD2E00C526BD /* TableView.swift */; };
 		69C088B72A60DDC300C526BD /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088B62A60DDC300C526BD /* FrameView.swift */; };
@@ -150,6 +151,7 @@
 		69A2B5472A5CEBBE00AC658C /* Task15View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task15View.swift; sourceTree = "<group>"; };
 		69A2B54C2A5D602800AC658C /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		69ABF0622B7DD31F008B8DC5 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		69ABF0642B7DE96A008B8DC5 /* Map2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map2View.swift; sourceTree = "<group>"; };
 		69C088B12A60DD2800C526BD /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		69C088B32A60DD2E00C526BD /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		69C088B62A60DDC300C526BD /* FrameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
@@ -507,6 +509,7 @@
 				69D363D52A5A3D6F00A14065 /* CircleImage.swift */,
 				69D363DD2A5A451E00A14065 /* LandmarkDetail.swift */,
 				69D363D72A5A3EC500A14065 /* MapView.swift */,
+				69ABF0642B7DE96A008B8DC5 /* Map2View.swift */,
 				69D363DB2A5A408C00A14065 /* LandmarkList.swift */,
 			);
 			path = Views;
@@ -779,6 +782,7 @@
 				69C088B72A60DDC300C526BD /* FrameView.swift in Sources */,
 				69FC05442A5ABC5600A8AC2D /* TaskMenuView.swift in Sources */,
 				69C088BF2A62230000C526BD /* Satei.swift in Sources */,
+				69ABF0652B7DE96A008B8DC5 /* Map2View.swift in Sources */,
 				695BD10A2A58F618001479C3 /* SwiftUI_Study_2023App.swift in Sources */,
 				695BD1342A58FD03001479C3 /* StructView.swift in Sources */,
 				695BD13A2A58FDB6001479C3 /* GitHubUser.swift in Sources */,
