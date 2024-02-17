@@ -28,6 +28,7 @@
 		695BD1272A58F61A001479C3 /* SwiftUI_Study_2023UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1262A58F61A001479C3 /* SwiftUI_Study_2023UITestsLaunchTests.swift */; };
 		695BD1342A58FD03001479C3 /* StructView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1332A58FD03001479C3 /* StructView.swift */; };
 		695BD1362A58FD1E001479C3 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1352A58FD1E001479C3 /* ClassView.swift */; };
+		697184BA2B8066CA00AC0A49 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697184B92B8066CA00AC0A49 /* DiceView.swift */; };
 		69A2B5372A5CD36C00AC658C /* Task11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B5362A5CD36C00AC658C /* Task11View.swift */; };
 		69A2B53C2A5CD55600AC658C /* Task12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B53B2A5CD55600AC658C /* Task12View.swift */; };
 		69A2B5402A5CD71800AC658C /* Task13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B53F2A5CD71800AC658C /* Task13View.swift */; };
@@ -137,6 +138,7 @@
 		695BD1262A58F61A001479C3 /* SwiftUI_Study_2023UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Study_2023UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		695BD1332A58FD03001479C3 /* StructView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructView.swift; sourceTree = "<group>"; };
 		695BD1352A58FD1E001479C3 /* ClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		697184B92B8066CA00AC0A49 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
 		69A2B5362A5CD36C00AC658C /* Task11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task11View.swift; sourceTree = "<group>"; };
 		69A2B53B2A5CD55600AC658C /* Task12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task12View.swift; sourceTree = "<group>"; };
 		69A2B53F2A5CD71800AC658C /* Task13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task13View.swift; sourceTree = "<group>"; };
@@ -484,6 +486,7 @@
 			children = (
 				69ABF0622B7DD31F008B8DC5 /* FaceView.swift */,
 				69EE08772B7F0E4F00A9EB9C /* TaxCalcView.swift */,
+				697184B92B8066CA00AC0A49 /* DiceView.swift */,
 			);
 			path = SatoRiku;
 			sourceTree = "<group>";
@@ -684,7 +687,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					695BD1052A58F618001479C3 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -755,6 +758,7 @@
 			files = (
 				6942FB322A5B95EE004A3B5B /* Task8View.swift in Sources */,
 				69C088C62A62278400C526BD /* StructModel.swift in Sources */,
+				697184BA2B8066CA00AC0A49 /* DiceView.swift in Sources */,
 				69CA44CC2B804E6300E0100E /* AsAf.swift in Sources */,
 				69CA44D02B804E6300E0100E /* mockEventsData.swift in Sources */,
 				69CA44C92B804E6300E0100E /* Satei.swift in Sources */,
@@ -872,6 +876,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -904,6 +909,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -932,6 +938,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -964,6 +971,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
