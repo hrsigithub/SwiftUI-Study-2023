@@ -45,6 +45,24 @@
 		69C088CA2A622E7800C526BD /* ObservedObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088C92A622E7800C526BD /* ObservedObjectView.swift */; };
 		69C088CC2A62398000C526BD /* StateObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088CB2A62398000C526BD /* StateObjectView.swift */; };
 		69C088CE2A623E5C00C526BD /* ObservedOrStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C088CD2A623E5C00C526BD /* ObservedOrStateView.swift */; };
+		69CA44C52B804E6300E0100E /* GithubUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44AC2B804E6300E0100E /* GithubUserView.swift */; };
+		69CA44C62B804E6300E0100E /* QiittaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44AD2B804E6300E0100E /* QiittaView.swift */; };
+		69CA44C72B804E6300E0100E /* SateiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44AE2B804E6300E0100E /* SateiView.swift */; };
+		69CA44C82B804E6300E0100E /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B02B804E6300E0100E /* GitHubUser.swift */; };
+		69CA44C92B804E6300E0100E /* Satei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B12B804E6300E0100E /* Satei.swift */; };
+		69CA44CA2B804E6300E0100E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B22B804E6300E0100E /* Article.swift */; };
+		69CA44CB2B804E6300E0100E /* QittaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B32B804E6300E0100E /* QittaUser.swift */; };
+		69CA44CC2B804E6300E0100E /* AsAf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B52B804E6300E0100E /* AsAf.swift */; };
+		69CA44CD2B804E6300E0100E /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B62B804E6300E0100E /* Util.swift */; };
+		69CA44CE2B804E6300E0100E /* SateiiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B82B804E6300E0100E /* SateiiViewModel.swift */; };
+		69CA44CF2B804E6300E0100E /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44B92B804E6300E0100E /* ArticleViewModel.swift */; };
+		69CA44D02B804E6300E0100E /* mockEventsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44BC2B804E6300E0100E /* mockEventsData.swift */; };
+		69CA44D12B804E6300E0100E /* TopListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44BE2B804E6300E0100E /* TopListViewModel.swift */; };
+		69CA44D22B804E6300E0100E /* StudyGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44C02B804E6300E0100E /* StudyGroup.swift */; };
+		69CA44D32B804E6300E0100E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44C12B804E6300E0100E /* Event.swift */; };
+		69CA44D42B804E6300E0100E /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44C32B804E6300E0100E /* TopListView.swift */; };
+		69CA44D52B804E6300E0100E /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA44C42B804E6300E0100E /* EventRowView.swift */; };
+		69CA44D92B80502300E0100E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 69CA44D82B80502300E0100E /* .gitignore */; };
 		69D363CC2A5A3C7900A14065 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D363CB2A5A3C7900A14065 /* Landmark.swift */; };
 		69D363CE2A5A3C9100A14065 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D363CD2A5A3C9100A14065 /* LandmarkRow.swift */; };
 		69D363D12A5A3CD100A14065 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 69D363D02A5A3CD100A14065 /* landmarkData.json */; };
@@ -136,6 +154,24 @@
 		69C088C92A622E7800C526BD /* ObservedObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedObjectView.swift; sourceTree = "<group>"; };
 		69C088CB2A62398000C526BD /* StateObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObjectView.swift; sourceTree = "<group>"; };
 		69C088CD2A623E5C00C526BD /* ObservedOrStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservedOrStateView.swift; sourceTree = "<group>"; };
+		69CA44AC2B804E6300E0100E /* GithubUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserView.swift; sourceTree = "<group>"; };
+		69CA44AD2B804E6300E0100E /* QiittaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiittaView.swift; sourceTree = "<group>"; };
+		69CA44AE2B804E6300E0100E /* SateiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SateiView.swift; sourceTree = "<group>"; };
+		69CA44B02B804E6300E0100E /* GitHubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		69CA44B12B804E6300E0100E /* Satei.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Satei.swift; sourceTree = "<group>"; };
+		69CA44B22B804E6300E0100E /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		69CA44B32B804E6300E0100E /* QittaUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QittaUser.swift; sourceTree = "<group>"; };
+		69CA44B52B804E6300E0100E /* AsAf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsAf.swift; sourceTree = "<group>"; };
+		69CA44B62B804E6300E0100E /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		69CA44B82B804E6300E0100E /* SateiiViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SateiiViewModel.swift; sourceTree = "<group>"; };
+		69CA44B92B804E6300E0100E /* ArticleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		69CA44BC2B804E6300E0100E /* mockEventsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mockEventsData.swift; sourceTree = "<group>"; };
+		69CA44BE2B804E6300E0100E /* TopListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListViewModel.swift; sourceTree = "<group>"; };
+		69CA44C02B804E6300E0100E /* StudyGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudyGroup.swift; sourceTree = "<group>"; };
+		69CA44C12B804E6300E0100E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		69CA44C32B804E6300E0100E /* TopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
+		69CA44C42B804E6300E0100E /* EventRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
+		69CA44D82B80502300E0100E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		69D363CB2A5A3C7900A14065 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		69D363CD2A5A3C9100A14065 /* LandmarkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		69D363D02A5A3CD100A14065 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
@@ -272,6 +308,7 @@
 		695BD0FD2A58F618001479C3 = {
 			isa = PBXGroup;
 			children = (
+				69CA44D82B80502300E0100E /* .gitignore */,
 				695BD1082A58F618001479C3 /* SwiftUI-Study-2023 */,
 				695BD1192A58F61A001479C3 /* SwiftUI-Study-2023Tests */,
 				695BD1232A58F61A001479C3 /* SwiftUI-Study-2023UITests */,
@@ -292,6 +329,8 @@
 		695BD1082A58F618001479C3 /* SwiftUI-Study-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				69CA44D62B804EA900E0100E /* SatoRiku */,
+				69CA44AA2B804E0800E0100E /* Fetch */,
 				69DE73A02A6780D6003865D3 /* 1000Days */,
 				69DE73952A66D342003865D3 /* Design */,
 				6942FB332A5B9876004A3B5B /* PropertyWrappers */,
@@ -340,9 +379,113 @@
 			children = (
 				69C088B62A60DDC300C526BD /* FrameView.swift */,
 				69C088B82A60DDCD00C526BD /* LazyVGridView.swift */,
-				69ABF0622B7DD31F008B8DC5 /* FaceView.swift */,
 			);
 			path = Layouts;
+			sourceTree = "<group>";
+		};
+		69CA44AA2B804E0800E0100E /* Fetch */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44AF2B804E6300E0100E /* Models */,
+				69CA44BA2B804E6300E0100E /* StudyGroup */,
+				69CA44B42B804E6300E0100E /* Utils */,
+				69CA44B72B804E6300E0100E /* ViewModels */,
+				69CA44AB2B804E6300E0100E /* Views */,
+			);
+			path = Fetch;
+			sourceTree = "<group>";
+		};
+		69CA44AB2B804E6300E0100E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44AC2B804E6300E0100E /* GithubUserView.swift */,
+				69CA44AD2B804E6300E0100E /* QiittaView.swift */,
+				69CA44AE2B804E6300E0100E /* SateiView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69CA44AF2B804E6300E0100E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44B02B804E6300E0100E /* GitHubUser.swift */,
+				69CA44B12B804E6300E0100E /* Satei.swift */,
+				69CA44B22B804E6300E0100E /* Article.swift */,
+				69CA44B32B804E6300E0100E /* QittaUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69CA44B42B804E6300E0100E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44B52B804E6300E0100E /* AsAf.swift */,
+				69CA44B62B804E6300E0100E /* Util.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		69CA44B72B804E6300E0100E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44B82B804E6300E0100E /* SateiiViewModel.swift */,
+				69CA44B92B804E6300E0100E /* ArticleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69CA44BA2B804E6300E0100E /* StudyGroup */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44BB2B804E6300E0100E /* Mocks */,
+				69CA44BD2B804E6300E0100E /* ViewModels */,
+				69CA44BF2B804E6300E0100E /* Models */,
+				69CA44C22B804E6300E0100E /* Views */,
+			);
+			path = StudyGroup;
+			sourceTree = "<group>";
+		};
+		69CA44BB2B804E6300E0100E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44BC2B804E6300E0100E /* mockEventsData.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		69CA44BD2B804E6300E0100E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44BE2B804E6300E0100E /* TopListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		69CA44BF2B804E6300E0100E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44C02B804E6300E0100E /* StudyGroup.swift */,
+				69CA44C12B804E6300E0100E /* Event.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		69CA44C22B804E6300E0100E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69CA44C32B804E6300E0100E /* TopListView.swift */,
+				69CA44C42B804E6300E0100E /* EventRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		69CA44D62B804EA900E0100E /* SatoRiku */ = {
+			isa = PBXGroup;
+			children = (
+				69ABF0622B7DD31F008B8DC5 /* FaceView.swift */,
+				69EE08772B7F0E4F00A9EB9C /* TaxCalcView.swift */,
+			);
+			path = SatoRiku;
 			sourceTree = "<group>";
 		};
 		69D363C92A5A3C2300A14065 /* Landmarks */ = {
@@ -447,7 +590,6 @@
 				69FB485B2A5F7C1600F6448F /* NumberView.swift */,
 				69FB485D2A5F831A00F6448F /* FormView.swift */,
 				69FB48622A5F9B3200F6448F /* ListView.swift */,
-				69EE08772B7F0E4F00A9EB9C /* TaxCalcView.swift */,
 			);
 			path = Fields;
 			sourceTree = "<group>";
@@ -583,6 +725,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69CA44D92B80502300E0100E /* .gitignore in Resources */,
 				695BD1112A58F61A001479C3 /* Preview Assets.xcassets in Resources */,
 				695BD10E2A58F61A001479C3 /* Assets.xcassets in Resources */,
 				69D363D12A5A3CD100A14065 /* landmarkData.json in Resources */,
@@ -612,7 +755,11 @@
 			files = (
 				6942FB322A5B95EE004A3B5B /* Task8View.swift in Sources */,
 				69C088C62A62278400C526BD /* StructModel.swift in Sources */,
+				69CA44CC2B804E6300E0100E /* AsAf.swift in Sources */,
+				69CA44D02B804E6300E0100E /* mockEventsData.swift in Sources */,
+				69CA44C92B804E6300E0100E /* Satei.swift in Sources */,
 				694B63012A5E34AE00890C2F /* ImageExtension.swift in Sources */,
+				69CA44D52B804E6300E0100E /* EventRowView.swift in Sources */,
 				69DE73982A66D36D003865D3 /* BindExtension.swift in Sources */,
 				69D363CC2A5A3C7900A14065 /* Landmark.swift in Sources */,
 				695BD10C2A58F618001479C3 /* ContentView.swift in Sources */,
@@ -621,6 +768,7 @@
 				69FC05402A5ABAD700A8AC2D /* Task4View.swift in Sources */,
 				69DE73A72A678131003865D3 /* GuessTheFlagComplete.swift in Sources */,
 				6942FB302A5B9579004A3B5B /* Utils.swift in Sources */,
+				69CA44C62B804E6300E0100E /* QiittaView.swift in Sources */,
 				69D363DA2A5A3EE500A14065 /* LandmarksView.swift in Sources */,
 				69D363D32A5A3D2200A14065 /* ModelData.swift in Sources */,
 				69C088CE2A623E5C00C526BD /* ObservedOrStateView.swift in Sources */,
@@ -633,26 +781,34 @@
 				694B62FD2A5E344600890C2F /* TopView.swift in Sources */,
 				69C088B92A60DDCD00C526BD /* LazyVGridView.swift in Sources */,
 				69FB48522A5E367200F6448F /* ViewExtension.swift in Sources */,
+				69CA44C82B804E6300E0100E /* GitHubUser.swift in Sources */,
 				69FB48572A5E3A8A00F6448F /* HomeView.swift in Sources */,
 				6942FB272A5B8AB0004A3B5B /* Task6View.swift in Sources */,
 				69A2B5402A5CD71800AC658C /* Task13View.swift in Sources */,
 				69C088CC2A62398000C526BD /* StateObjectView.swift in Sources */,
 				6942FB372A5B9ACF004A3B5B /* ClassModel.swift in Sources */,
 				69A2B5372A5CD36C00AC658C /* Task11View.swift in Sources */,
+				69CA44CF2B804E6300E0100E /* ArticleViewModel.swift in Sources */,
 				69FB48502A5E364700F6448F /* BottomView.swift in Sources */,
 				69FC05422A5ABB4D00A8AC2D /* Task5View.swift in Sources */,
 				69C088B22A60DD2800C526BD /* TextFieldView.swift in Sources */,
+				69CA44C52B804E6300E0100E /* GithubUserView.swift in Sources */,
 				69A2B5462A5CDC4700AC658C /* GeneralModel.swift in Sources */,
 				69D363DE2A5A451E00A14065 /* LandmarkDetail.swift in Sources */,
 				69C088B72A60DDC300C526BD /* FrameView.swift in Sources */,
 				69FC05442A5ABC5600A8AC2D /* TaskMenuView.swift in Sources */,
+				69CA44CB2B804E6300E0100E /* QittaUser.swift in Sources */,
+				69CA44D32B804E6300E0100E /* Event.swift in Sources */,
+				69CA44D42B804E6300E0100E /* TopListView.swift in Sources */,
 				69ABF0652B7DE96A008B8DC5 /* Map2View.swift in Sources */,
 				695BD10A2A58F618001479C3 /* SwiftUI_Study_2023App.swift in Sources */,
+				69CA44CE2B804E6300E0100E /* SateiiViewModel.swift in Sources */,
 				695BD1342A58FD03001479C3 /* StructView.swift in Sources */,
 				69DE73A32A67810E003865D3 /* WeSplit.swift in Sources */,
 				69FC053E2A5ABA5600A8AC2D /* Task3View.swift in Sources */,
 				69FB48632A5F9B3200F6448F /* ListView.swift in Sources */,
 				69ABF0632B7DD31F008B8DC5 /* FaceView.swift in Sources */,
+				69CA44CA2B804E6300E0100E /* Article.swift in Sources */,
 				69FB48552A5E36A000F6448F /* BottomButtonModifier.swift in Sources */,
 				69FB485C2A5F7C1600F6448F /* NumberView.swift in Sources */,
 				69DE739F2A678055003865D3 /* TodoListView.swift in Sources */,
@@ -660,15 +816,19 @@
 				69FC05462A5ABCBF00A8AC2D /* Task1View.swift in Sources */,
 				69A2B53C2A5CD55600AC658C /* Task12View.swift in Sources */,
 				69A2B5482A5CEBBE00AC658C /* Task15View.swift in Sources */,
+				69CA44D22B804E6300E0100E /* StudyGroup.swift in Sources */,
 				695BD1362A58FD1E001479C3 /* ClassView.swift in Sources */,
 				69C088CA2A622E7800C526BD /* ObservedObjectView.swift in Sources */,
 				69FB485A2A5F7B6A00F6448F /* Utis.swift in Sources */,
 				69A2B54D2A5D602800AC658C /* MainMenuView.swift in Sources */,
 				69FC05482A5AE36A00A8AC2D /* Task2View.swift in Sources */,
 				69D363D62A5A3D6F00A14065 /* CircleImage.swift in Sources */,
+				69CA44D12B804E6300E0100E /* TopListViewModel.swift in Sources */,
 				6942FB2E2A5B94CB004A3B5B /* Task7View.swift in Sources */,
+				69CA44C72B804E6300E0100E /* SateiView.swift in Sources */,
 				69FB485E2A5F831A00F6448F /* FormView.swift in Sources */,
 				69EE08782B7F0E4F00A9EB9C /* TaxCalcView.swift in Sources */,
+				69CA44CD2B804E6300E0100E /* Util.swift in Sources */,
 				69A2B5422A5CDB7A00AC658C /* Task14View.swift in Sources */,
 				6942FB3B2A5BF236004A3B5B /* Task9View.swift in Sources */,
 			);
