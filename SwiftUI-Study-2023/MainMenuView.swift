@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ"]
+let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500"]
 
 struct MainMenuView: View {
     var body: some View {
@@ -40,6 +40,8 @@ struct MainMenuView: View {
             TaxCalcView()
         case 7:
           DiceView()
+        case 8:
+          SP500View()
 
         default:
             Text("まだ未完成だわ")
