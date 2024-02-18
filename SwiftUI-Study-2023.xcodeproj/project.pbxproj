@@ -29,6 +29,7 @@
 		695BD1342A58FD03001479C3 /* StructView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1332A58FD03001479C3 /* StructView.swift */; };
 		695BD1362A58FD1E001479C3 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695BD1352A58FD1E001479C3 /* ClassView.swift */; };
 		697184BA2B8066CA00AC0A49 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697184B92B8066CA00AC0A49 /* DiceView.swift */; };
+		699FFF592B81C8180096FC7E /* ScreenTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699FFF582B81C8180096FC7E /* ScreenTransitionView.swift */; };
 		69A2B5372A5CD36C00AC658C /* Task11View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B5362A5CD36C00AC658C /* Task11View.swift */; };
 		69A2B53C2A5CD55600AC658C /* Task12View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B53B2A5CD55600AC658C /* Task12View.swift */; };
 		69A2B5402A5CD71800AC658C /* Task13View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2B53F2A5CD71800AC658C /* Task13View.swift */; };
@@ -142,6 +143,7 @@
 		695BD1332A58FD03001479C3 /* StructView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructView.swift; sourceTree = "<group>"; };
 		695BD1352A58FD1E001479C3 /* ClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
 		697184B92B8066CA00AC0A49 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		699FFF582B81C8180096FC7E /* ScreenTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionView.swift; sourceTree = "<group>"; };
 		69A2B5362A5CD36C00AC658C /* Task11View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task11View.swift; sourceTree = "<group>"; };
 		69A2B53B2A5CD55600AC658C /* Task12View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task12View.swift; sourceTree = "<group>"; };
 		69A2B53F2A5CD71800AC658C /* Task13View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task13View.swift; sourceTree = "<group>"; };
@@ -316,7 +318,6 @@
 		695BD0FD2A58F618001479C3 = {
 			isa = PBXGroup;
 			children = (
-				69EB75772B80A2A600499183 /* self-made */,
 				69CA44D82B80502300E0100E /* .gitignore */,
 				695BD1082A58F618001479C3 /* SwiftUI-Study-2023 */,
 				695BD1192A58F61A001479C3 /* SwiftUI-Study-2023Tests */,
@@ -338,6 +339,7 @@
 		695BD1082A58F618001479C3 /* SwiftUI-Study-2023 */ = {
 			isa = PBXGroup;
 			children = (
+				69EB75772B80A2A600499183 /* self-made */,
 				69CA44D62B804EA900E0100E /* SatoRiku */,
 				69CA44AA2B804E0800E0100E /* Fetch */,
 				69DE73A02A6780D6003865D3 /* 1000Days */,
@@ -494,6 +496,7 @@
 				69ABF0622B7DD31F008B8DC5 /* FaceView.swift */,
 				69EE08772B7F0E4F00A9EB9C /* TaxCalcView.swift */,
 				697184B92B8066CA00AC0A49 /* DiceView.swift */,
+				699FFF582B81C8180096FC7E /* ScreenTransitionView.swift */,
 			);
 			path = SatoRiku;
 			sourceTree = "<group>";
@@ -840,6 +843,7 @@
 				69FB48552A5E36A000F6448F /* BottomButtonModifier.swift in Sources */,
 				69FB485C2A5F7C1600F6448F /* NumberView.swift in Sources */,
 				69DE739F2A678055003865D3 /* TodoListView.swift in Sources */,
+				699FFF592B81C8180096FC7E /* ScreenTransitionView.swift in Sources */,
 				69D363CE2A5A3C9100A14065 /* LandmarkRow.swift in Sources */,
 				69FC05462A5ABCBF00A8AC2D /* Task1View.swift in Sources */,
 				69A2B53C2A5CD55600AC658C /* Task12View.swift in Sources */,
