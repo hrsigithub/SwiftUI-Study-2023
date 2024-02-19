@@ -80,6 +80,7 @@
 		69DE73A32A67810E003865D3 /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE73A22A67810E003865D3 /* WeSplit.swift */; };
 		69DE73A52A67811F003865D3 /* GuessTheFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE73A42A67811E003865D3 /* GuessTheFlag.swift */; };
 		69DE73A72A678131003865D3 /* GuessTheFlagComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE73A62A678131003865D3 /* GuessTheFlagComplete.swift */; };
+		69E03BB02B82DE1A00E00889 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E03BAF2B82DE1A00E00889 /* CounterView.swift */; };
 		69EB75732B809EA500499183 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 69EB75722B809EA500499183 /* Alamofire */; };
 		69EB75762B809EE600499183 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 69EB75752B809EE600499183 /* SwiftSoup */; };
 		69EB75792B80A2BC00499183 /* SP500View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EB75782B80A2BC00499183 /* SP500View.swift */; };
@@ -194,6 +195,7 @@
 		69DE73A22A67810E003865D3 /* WeSplit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
 		69DE73A42A67811E003865D3 /* GuessTheFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessTheFlag.swift; sourceTree = "<group>"; };
 		69DE73A62A678131003865D3 /* GuessTheFlagComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessTheFlagComplete.swift; sourceTree = "<group>"; };
+		69E03BAF2B82DE1A00E00889 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		69EB75782B80A2BC00499183 /* SP500View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SP500View.swift; sourceTree = "<group>"; };
 		69EE08772B7F0E4F00A9EB9C /* TaxCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxCalcView.swift; sourceTree = "<group>"; };
 		69FB484F2A5E364700F6448F /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
@@ -497,6 +499,7 @@
 				69EE08772B7F0E4F00A9EB9C /* TaxCalcView.swift */,
 				697184B92B8066CA00AC0A49 /* DiceView.swift */,
 				699FFF582B81C8180096FC7E /* ScreenTransitionView.swift */,
+				69E03BAF2B82DE1A00E00889 /* CounterView.swift */,
 			);
 			path = SatoRiku;
 			sourceTree = "<group>";
@@ -859,6 +862,7 @@
 				6942FB2E2A5B94CB004A3B5B /* Task7View.swift in Sources */,
 				69CA44C72B804E6300E0100E /* SateiView.swift in Sources */,
 				69FB485E2A5F831A00F6448F /* FormView.swift in Sources */,
+				69E03BB02B82DE1A00E00889 /* CounterView.swift in Sources */,
 				69EE08782B7F0E4F00A9EB9C /* TaxCalcView.swift in Sources */,
 				69CA44CD2B804E6300E0100E /* Util.swift in Sources */,
 				69A2B5422A5CDB7A00AC658C /* Task14View.swift in Sources */,
