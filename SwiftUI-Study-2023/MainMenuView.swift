@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター"]
+let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター", "アラートダイアログ"]
 
 struct MainMenuView: View {
     var body: some View {
@@ -46,9 +46,10 @@ struct MainMenuView: View {
           ScreenTransitionView()
         case 10:
           CounterView()
-          
-          
-          
+        case 11:
+          AlertDialogView()
+
+
         default:
             Text("まだ未完成だわ")
         }
