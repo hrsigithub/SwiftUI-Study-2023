@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター", "アラートダイアログ"]
+let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター", "アラートダイアログ", "ログイン"]
 
 struct MainMenuView: View {
     var body: some View {
@@ -18,6 +18,7 @@ struct MainMenuView: View {
                 }
             }
             .navigationTitle("メインメニュー")
+ //           .navigationBarTitleDisplayMode(.large)
         }
     }
     
@@ -48,6 +49,8 @@ struct MainMenuView: View {
           CounterView()
         case 11:
           AlertDialogView()
+        case 12:
+          LoginView()
 
 
         default:
