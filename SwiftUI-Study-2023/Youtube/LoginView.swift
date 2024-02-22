@@ -34,18 +34,20 @@ struct LoginView: View {
             .font(.largeTitle)
             .bold()
             .padding()
+//            .foregroundColor(.primary)
           
           TextField("Username", text: $username)
             .padding()
             .frame(width: 300, height: 50)
-            .background(Color.black.opacity(0.05))
+//            .background(Color.black.opacity(0.05))
+            .background(Color.primary.opacity(0.05))
             .cornerRadius(10)
             .border(.red, width: isError ? CGFloat(2) : CGFloat(0))
 
           SecureField("Password", text: $password)
             .padding()
             .frame(width: 300, height: 50)
-            .background(Color.black.opacity(0.05))
+            .background(Color.primary.opacity(0.05))
             .cornerRadius(10)
             .border(.red, width: isError ? CGFloat(2) : CGFloat(0))
             

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター", "アラートダイアログ", "ログイン"]
+let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター", "アラートダイアログ", "ログイン", "TodoList"]
 
 struct MainMenuView: View {
     var body: some View {
@@ -18,7 +18,6 @@ struct MainMenuView: View {
                 }
             }
             .navigationTitle("メインメニュー")
- //           .navigationBarTitleDisplayMode(.large)
         }
     }
     
@@ -51,7 +50,8 @@ struct MainMenuView: View {
           AlertDialogView()
         case 12:
           LoginView()
-
+        case 13:
+          TodoListView2()
 
         default:
             Text("まだ未完成だわ")
