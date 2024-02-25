@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター", "アラートダイアログ", "ログイン", "TodoList"]
+let Menus = ["課題チャレンジ", "Landmark", "Tinder", "Qiitta", "Face", "map", "消費税計算", "サイコロ", "SP500", "画面遷移", "カウンター", "アラートダイアログ", "ログイン", "TodoList", "@StateObjectと@ObservedObjectとの違い"]
 
 struct MainMenuView: View {
     var body: some View {
@@ -52,7 +52,9 @@ struct MainMenuView: View {
           LoginView()
         case 13:
           TodoListView2()
-
+        case 14:
+          inputView()
+          
         default:
             Text("まだ未完成だわ")
         }
